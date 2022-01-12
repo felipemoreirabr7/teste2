@@ -1,0 +1,38 @@
+.container-footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    display: flex;
+    justify-items: center;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    align-items: center;
+}
+
+.sobre{
+    width: 40%;
+    
+}
+
+
+.contato{
+    width: 30%;
+}
+
+.pagamento{
+    width: 30%;
+}
+
+@media(max-width: 320px){
+    .container-footer{
+        width: 100%;
+        height: 120px;
+        margin-top: 150px;
+        display: flex;
+        justify-items: center;
+        background-color: rgb(32, 32, 32);
+        color: white;
+        align-items: center;
+        font-size: 12px;
+    }
+}
