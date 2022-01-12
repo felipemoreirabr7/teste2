@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    max-width: 350px;
+    height: 70vh;
+    margin: 0 auto;
+
+    flex-direction: column;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container input{
+    font-size: 16px;
+    margin-top: 15px;
+    width: 75%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+
+.container button{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 25%;
+    height: 30px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(250, 100, 61);
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+
+}
+
+.container button:hover{
+    filter: brightness(90%);
+    
+}
