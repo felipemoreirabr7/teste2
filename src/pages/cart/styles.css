@@ -1,0 +1,20 @@
+.container-products{
+    margin-top: 50px;
+}
+
+.div-button{
+    display: flex;
+    justify-content: center;
+}
+
+.div-button button{
+    margin-top: 20px;
+    height: 30px;
+    width: 60%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(250, 100, 61);
+    border: none;
+    border-radius: 5px;
+}
