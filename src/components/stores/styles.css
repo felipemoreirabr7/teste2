@@ -1,0 +1,26 @@
+.store-card{
+    
+    
+    background-color: white;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.container-store{
+    width: 100%;
+    max-width: 980px;
+    border: 1px solid gray;
+}
+
+
+.store-card img{
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+
+    
+}
